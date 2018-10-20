@@ -1,0 +1,156 @@
+.material-icons.md-light {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0.7rem 0.7rem;
+}
+
+#bg-green {
+    background: rgb(76, 170, 146);
+}
+
+#bg-blue {
+    background: rgb(77, 157, 224)
+}
+
+#bg-red {
+    background: #E15554;
+}
+
+#bg-yellow {
+    background: #E1BC29;
+}
+
+div[class*="row"] {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.col {
+    flex-basis: calc(100%/4);
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    /* flex: 3 0 20%;
+     margin: 5px; */
+}
+
+.col>a {
+
+    font-size: 12px;
+    /* color: gray; */
+}
+
+.col>a>span {
+    color: #5a5252;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+table>thead>tr>th,
+table>tbody>tr>td {
+    text-align: center;
+}
+
+.demo-swiper .swiper-slide {
+    /* font-size: 25px;
+    font-weight: 300; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    /* color: #000; */
+}
+
+.demo-swiper .swiper-slide {
+    /* box-sizing: border-box; */
+    background: #fff;
+}
+
+.demo-swiper {
+    margin-top: -1.5rem;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    /* font-size: 18px; */
+    height: 100vh;
+    width: 100%;
+}
+
+/* 
+.demo-swiper.demo-swiper-auto .swiper-slide {
+    width: 85%;
+}
+
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+    width: 70%;
+}
+
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+    width: 30%;
+} */
+
+.swiper-slide {
+    height: 40%;
+    width: 100%;
+}
+
+.demo {
+    /* font-size: 25px;
+    font-weight: 300; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    /* color: #000; */
+}
+
+.demo .slide {
+    /* box-sizing: border-box; */
+    background: #fff;
+}
+
+.demo {
+    margin-top: -1rem;
+    /* font-size: 18px; */
+    height: 70vh;
+    width: 100%;
+}
+
+#pagu {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-kabupaten {
+    /* margin-top: -1.5rem; */
+    height: 50%;
+    width: 100%;
+}
+
+.sheet-modal>.toolbar {
+    background: rgb(76, 170, 146);
+}
+
+.home {
+    background-image: url("http://103.52.146.34/dashboard/webservice/drawable-hdpi-icon2.png");
+    background-position: center center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    background-size: 70%;
+    background-attachment: fixed;
+    /* opacity: 0.5; */
+
+}
+
+.statusbar {
+    background: rgb(76, 170, 146);
+    /* We can add transition for smooth color animation */
+    transition: 400ms;
+}

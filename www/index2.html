@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <title>Simda</title>
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <link rel="stylesheet" href="css/framework7.md.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+
+    <!-- material design icon -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="css/md.css">
+
+    <link rel="apple-touch-icon" href="img/f7-icon-square.png">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <div id="app">
+        <div class="statusbar"></div>
+
+        <!-- Right panel with reveal effect-->
+        <!-- <div class="panel panel-right panel-reveal theme-dark">
+            <div class="view">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="title">Right Panel</div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="block">Right panel content goes here</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main color-theme-green">
+            <div class="toolbar tabbar-labels toolbar-bottom-md">
+                <div class="toolbar-inner">
+                    <a href="#view-home" class="tab-link tab-link-active">
+                        <i class="icon f7-icons ios-only">home</i>
+                        <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
+                        <i class="icon material-icons md-only">home</i>
+                        <span class="tabbar-label">Home</span>
+                    </a>
+                    <a href="#view-catalog" class="tab-link">
+                        <i class="icon f7-icons ios-only">list</i>
+                        <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
+                        <i class="icon material-icons md-only">people</i>
+                        <span class="tabbar-label">Account</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Page, data-name contains page name which can be used in callbacks -->
+            <div class="page color-theme-green " data-name="home">
+                <!-- Top Navbar -->
+                <div class="navbar">
+                    <div class="navbar-inner">
+
+                        <div class="title sliding" style="font-family: 'Ubuntu', sans-serif;">simda</div>
+                        <div class="right">
+                            <a href="#" class="link icon-only panel-open" data-panel="right">
+                                <i class="icon f7-icons ios-only">menu</i>
+                                <i class="icon material-icons md-only">more_vert</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content-->
+                <div class="page-content">
+
+                    <div class="block block-strong no-hairlines ">
+
+                        <div class="row justify-content-space-between">
+                            <div class="col">
+                                <i class="material-icons md-light" id="bg-green">folder</i>
+                                <p>Summary Rencana & Realisasi</p>
+                            </div>
+
+                            <div class="col">
+                                <i class="material-icons md-light" id="bg-blue">local_atm</i>
+                                <p>Realisasi per SKPD</p>
+                            </div>
+                            <div class="col">
+                                <i class="material-icons md-light" id="bg-red">local_play</i>
+                                <p>Menu</p>
+                            </div>
+                            <div class="col">
+                                <i class="material-icons md-light" id="bg-yellow">location_city</i>
+                                <p>Menu</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-space-between">
+                            <div class="col">
+                                <i class="material-icons md-light" style="background:#FF6666">poll</i>
+                                <p>Menu</p>
+                            </div>
+                            <div class="col">
+                                <i class="material-icons md-light" style="background:#7CEA9C">drive_eta</i>
+                                <p>Menu</p>
+                            </div>
+                            <div class="col">
+                                <i class="material-icons md-light" style="background:#D6A2AD">event_available</i>
+                                <p>Menu</p>
+                            </div>
+                            <div class="col">
+                                <i class="material-icons md-light" style="background:#91F9E5">layers</i>
+                                <p>Menu</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="js/framework7.min.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
